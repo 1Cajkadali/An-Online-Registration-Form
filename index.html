@@ -16,85 +16,83 @@
                         <h3>Signup for our newsletter</h3>
                         <p>Get the latest news on how your code is doing right in your inbox</p>
                     </div>
-                </header>
-                    <main>
-                        <div class="container">
-                            <fieldset>
-                                <legend>Contact Information</legend>
-                                <div class="identification">
-                                    <label for="name">Full Name</label><br>
-                                    <input type="text" id="name" name="user_name" placeholder="required" required><br>
+            </header>
+            <main>
+                <div class="container">
+                    <fieldset>
+                    <legend>Contact Information</legend>
+                        <div class="identification">
+                            <label for="name">Full Name</label><br>
+                            <input type="text" id="name" name="user_name" placeholder="required" class="input" required><br>
 
-                                    <label for="email">Email Address</label><br>
-                                    <input type="email" id="email" name="user_email" placeholder="required" required><br>
+                            <label for="email">Email Address</label><br>
+                            <input type="email" id="email" name="user_email" placeholder="required" class="input" required><br>
 
-                                    <label for="phone">Phone Number</label><br>
-                                    <input type="tel" id="phone" name="user_phone" placeholder="Phone Number"><br>
+                            <label for="phone">Phone Number</label><br>
+                            <input type="tel" id="phone" name="user_phone" placeholder="Phone Number" class="input"><br>
 
-                                    <label for="street">Street Address</label><br>
-                                    <input type="text" id="street" name="user_street" placeholder="Street Address"><br>
+                            <label for="street">Street Address</label><br>
+                            <input type="text" id="street" name="user_street" placeholder="Street Address" class="input"><br>
 
-                                    <label for="city">City</label><br>
-                                    <input type="text" id="city" name="user_city" placeholder="City"><br>
+                            <label for="city">City</label><br>
+                            <input type="text" id="city" name="user_city" placeholder="City" class="input"><br>
 
-                                    <label for="state" id="label-state">State</label><br>
-                                    <select id="state" name="user_state">
-                                        <option value="" disabled selected>Choose State</option>
-                                        <option value="czech">Czech</option>
-                                        <option value="usa">USA</option>
-                                        <option value="canada">Canada</option>
-                                        <option value="uk">UK</option>
-                                        <option value="new_zealand">New Zealand</option>
-                                        <option value="australia">Australia</option>
-                                        <option value="china">China</option>
-                                        <option value="germany">Germany</option>
-                                    </select><br>
+                            <label for="state" id="label-state">State</label><br>
+                            <select id="state" name="user_state">
+                                <option value="" disabled selected>Choose State</option>
+                                <option value="czech">Czech</option>
+                                <option value="usa">USA</option>
+                                <option value="canada">Canada</option>
+                                <option value="uk">UK</option>
+                                <option value="new_zealand">New Zealand</option>
+                                <option value="australia">Australia</option>
+                                <option value="china">China</option>
+                                <option value="germany">Germany</option>
+                            </select><br>
 
-                                    <div id="zip-code">
-                                        <label for="zipcode" id="label-zip">Zip Code</label><br>
-                                        <input type="text" id="zipcode" name="user_zipcode"  placeholder="Zip Code"><br>
-                                    </div>
-                                </div>
-                            </fieldset>
+                            <div id="zip-code">
+                                <label for="zipcode" id="label-zip">Zip Code</label><br>
+                                <input type="text" id="zipcode" name="user_zipcode"  placeholder="Zip Code"  class="input"><br>
+                            </div>
+                        </div>
+                    </fieldset>
 
-                            <fieldset>
-                                <legend class="newsletter">Newsletter</legend>
-                                <div class="newsletter-info">
-                                    <label>Select the newsletters you would like to receive</label><br>
+                    <fieldset>
+                        <legend class="newsletter">Newsletter</legend>
+                        <div class="newsletter-info">
+                            <label>Select the newsletters you would like to receive</label><br>
 
-                                    <input type="checkbox" id="htmlnews" name="htmlnews" value="htmlnews">
-                                    <label for="htmlnews">HTML News</label><br>
+                            <input type="checkbox" id="htmlnews" name="htmlnews" value="htmlnews">
+                            <label for="htmlnews">HTML News</label><br>
 
-                                    <input type="checkbox" id="cssnews" name="cssnews" value="cssnews">
-                                    <label for="cssnews">CSS News</label><br>
+                            <input type="checkbox" id="cssnews" name="cssnews" value="cssnews">
+                            <label for="cssnews">CSS News</label><br>
 
-                                    <input type="checkbox" id="javascriptnews" name="javascriptnews" value="javascriptnews">
-                                    <label for="javascriptnews">JavaScript News</label><br>
+                            <input type="checkbox" id="javascriptnews" name="javascriptnews" value="javascriptnews">
+                            <label for="javascriptnews">JavaScript News</label><br>
 
-                                    <label>Newsletter format</label><br>
+                            <label>Newsletter format</label><br>
 
-                                    <input type="radio" id="format" name="newsletter_format" value="html">
-                                    <label for="format">HTML</label><br>
+                            <input type="radio" id="html" name="newsletter_format" value="html">
+                            <label for="html">HTML</label><br>
 
-                                    <input type="radio" id="format" name="newsletter_format" value="plaintext">
-                                    <label for="format">Plain text</label><br>
-                    
-                                </div>
+                            <input type="radio" id="plaintext" name="newsletter_format" value="plaintext">
+                            <label for="plaintext">Plain text</label><br>
+                        </div>
                             
-                                <div class="other-topics">
-                                    <label for="othertopics">Other topics you'd like to hear about</label><br>
-                                    <textarea id="othertopics" name="othertopics"></textarea>
-                                </div>
-                            </fieldset>
+                        <div class="other-topics">
+                            <label for="othertopics">Other topics you'd like to hear about</label><br>
+                            <textarea id="othertopics" name="othertopics"  class="input"></textarea>
                         </div>
-                        <div class="button">
-                            <button type="submit">Sign Up</button>
-                        </div>
-                    </main>
-
-                    <footer>
-                        <p>Copyright The Code Review</p>
-                    </footer>
-            </form>
-        </body>
-    </html>
+                    </fieldset>
+                </div>
+                <div class="button">
+                    <button type="submit">Sign Up</button>
+                </div>
+            </main>
+            <footer>
+                <p>Copyright The Code Review</p>
+            </footer>
+        </form>
+    </body>
+</html>
